@@ -1,4 +1,5 @@
 import './App.css';
+import Greeting from './components/Greeting';
 
 function App() {
 	const myName = 'Obaida';
@@ -21,6 +22,7 @@ function App() {
 				{greeting(myName)}
 			</div>
 			<div className="terst">Teeessstttt</div>
+			<Greeting />
 		</>
 	);
 }
